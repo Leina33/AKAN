@@ -1,3 +1,21 @@
+body{
+    /*background-image: url("akan2.jpg");*/
+    background-image:cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
 h1{
 text-align: center;
+font-size:32px;
+color:red;
+}
+#form1{
+    padding:40px;
+    padding-top:60px;
+    font-size:24px;
+}
+label{
+    display:inline-block;
+    margin-bottom:5rem;
 }
