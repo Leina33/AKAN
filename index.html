@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>AKAN NAMES</title>
     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
     <link href ="styles.css" rel="stylesheet" type="text/css">
     <script src="scripts.js"></script>
@@ -15,32 +15,63 @@
       <div class ="jumbotron">
           <h1>AKAN NAMES</h1>
           <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+          <hr>
       </div> 
-      <form id ="form">
-            <div class ="form-group-row">
-                <label for ="dateOfBirth" class ="col-sm-3" col-form-label>Enter your birthday</label>
-                <div class = "col-sm-8">
-                    <input type ="date" class ="form-control" id="dateOfBirth">
-                </div>
+      <div class="card" id="card">
+            <div class="card-title">
+              <h2>View your  Akan Name</h2> <br><br>
             </div>
-        </form>
-        <fieldset class ="form-group"> 
-            <div class ="row">
-                <h2>Select your Gender</h2>
-                <legend class = "col-form-label col-sm -4 pt-0">click on your gender</legend>
-                <div class ="custom-control custom-radio">
-                    <input class="custom-control-input" type ="radio" id="maleGender" value ="option1" name="custom-radio">
-                    <label class ="custom-control-label" for ="femaleGender">maleGender</label>
-                </div>
-                <div class ="custom-control custom-radio">
-                        <input class="custom-control-input" type ="radio" id="femaleGender" value ="option1" name="custom-radio">
-                        <label class ="custom-control-label" for ="femaleGender">femaleGender</label>
-                    </div>
-            </div>
-            <button type ="button class btn btn-primary" id =button1" onlick = "dateOfWeek();"><strong>submit</strong></button>
-        </form>
-        <p class ="output" id="akanOutput" </p>
-        </fieldset>
+             <div class="card-body">
+               <form class="" id="form">
+                 <div class="form-group">
+                   <label for="">Enter Name</label>//first name
+                   <input type="text" class="form-control" id="yourNames" onkeyup="allLetters(this)" name="your name">
+                 </div>
+                 <div class="form-group">
+                   <label for="">Gender</label>
+                   <select class="custom-select" id="gender" name="Gender">
+                     <option value="1">Gender</option>
+                     <option value="2">Male</option>
+                     <option value="3">Female</option>
+                    </select>
+                 </div>
+                 <div class="form-group">
+                   <label for="">CenturyBorn</label>
+                   <input type="number" class="form-control" id="centuryBorn" onkeyup="digits(this)" name="year" value="">
+                 </div>
+                 <div class="form-group">
+                   <label for="">Enter Year Born</label>
+                   <input type="number" class="form-control" id="yearBorn" onkeyup="digits(this)" name="year" value="">
+                 </div>
+                 <div class="form-group">
+                   <label for=""> Enter Month Born</label>
+                   <select class="custom-select" id="monthBorn" name="">
+                       <option value="0">Month...</option>
+                       <option value="1">January</option>
+                       <option value="2">February</option>
+                       <option value="3">March</option>
+                       <option value="4">April</option>
+                       <option value="5">May</option>
+                       <option value="6">June</option>
+                       <option value="7">July</option>
+                       <option value="8">August</option>
+                       <option value="9">September</option>
+                       <option value="10">October</option>
+                       <option value="11">November</option>
+                       <option value="12">December</option>
+                   </select>
+                 </div>
+                 <div class="form-group">
+                   <label for=""> Enter Day Born</label>
+                   <input type="number" class="form-control" id="dayBorn" name="">
+                 </div>
+                 <div class="form-group">
+                   <button type="button" onclick="giveName();selectGender(); giveCentury();giveYear();giveMonth();giveDay();validYear();validDay();getName();clearForm();" class="btn btn-outline-success">Submit</button>
+                 </div>
+               </form>
+             </div>
+           </div>
+         </div>
     </div>
 </body>
 </html>

@@ -1,19 +1,27 @@
 body{
-    /*background-image: url("akan2.jpg");*/
+    /*background-image: url("akan2.jpg")
     background-image:cover;
     background-repeat: no-repeat;
     background-size: auto;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: aquamarine;
+    font-family:'Times New Roman', Times, serif;
 }
 h1{
 text-align: center;
 font-size:32px;
 color:red;
 }
-#form1{
+h2{
+    text-align: center;
+    color:red;
+    font-size: 2
+}
+#form{
     padding:40px;
     padding-top:60px;
     font-size:24px;
+    background-color:chartreuse;
 }
 label{
     display:inline-block;
@@ -28,5 +36,8 @@ label{
     padding:45px;
     font-size:24px;
     padding-top:60px;
-    
+
+}
+hr{
+    color:yellowgreen;
 }
