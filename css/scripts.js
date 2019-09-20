@@ -1,5 +1,6 @@
-var day;
-function dateOfWeek(){
-    var dateOfBirth = console.log("dateOfBirth").value;
+var currentDate = newDate();
+var currentYear = currentDate.getFullYear();
 
+function giveName(){
+    
 }
