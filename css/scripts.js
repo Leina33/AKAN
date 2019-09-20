@@ -1,4 +1,5 @@
-var dateOfWeek = function(submit){
-    return submit;
-};
-onclick(submit)
+var day;
+function dateOfWeek(){
+    var dateOfBirth = console.log("dateOfBirth").value;
+    
+}

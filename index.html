@@ -16,7 +16,7 @@
           <h1>AKAN NAMES</h1>
           <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
       </div> 
-      <form id ="form1">
+      <form id ="form">
             <div class ="form-group-row">
                 <label for ="dateOfBirth" class ="col-sm-3" col-form-label>Enter your birthday</label>
                 <div class = "col-sm-8">
@@ -27,16 +27,19 @@
         <fieldset class ="form-group"> 
             <div class ="row">
                 <h2>Select your Gender</h2>
+                <legend class = "col-form-label col-sm -4 pt-0">click on your gender</legend>
                 <div class ="custom-control custom-radio">
                     <input class="custom-control-input" type ="radio" id="maleGender" value ="option1" name="custom-radio">
                     <label class ="custom-control-label" for ="femaleGender">maleGender</label>
                 </div>
                 <div class ="custom-control custom-radio">
-                        <input class="custom-control-input" type ="radio" id="maleGender" value ="option1" name="custom-radio">
-                        <label class ="custom-control-label" for ="femaleGender">maleGender</label>
+                        <input class="custom-control-input" type ="radio" id="femaleGender" value ="option1" name="custom-radio">
+                        <label class ="custom-control-label" for ="femaleGender">femaleGender</label>
                     </div>
             </div>
-            <button type ="button class btn btn-primary" id =button1" onlick = "dateOfWeek();">submit</button>
+            <button type ="button class btn btn-primary" id =button1" onlick = "dateOfWeek();"><strong>submit</strong></button>
+        </form>
+        <p class ="output" id="akanOutput" </p>
         </fieldset>
     </div>
 </body>
