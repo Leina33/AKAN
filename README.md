@@ -15,6 +15,8 @@ The website will automatically do the calculation and give you the feedback in r
 ## Technologies Used
 HTML
 CSS
+Javascript
+Bootstrap
 ## Support and contact details
 dominickrutto@gmail.com
 ### License
