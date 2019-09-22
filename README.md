@@ -11,7 +11,8 @@ The website will automatically do the calculation and give you the feedback in r
 * open the the application with the code editor of your choice
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+my website my not be respeonsive to other devices as it is still under innovation.
+responsive might be slower.
 ## Technologies Used
 HTML
 CSS
