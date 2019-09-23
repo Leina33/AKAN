@@ -11,8 +11,10 @@ The website will automatically do the calculation and give you the feedback in r
 * open the the application with the code editor of your choice
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
-my website my not be respeonsive to other devices as it is still under innovation.
-responsive might be slower.
+my website my not be responsive to other devices as it is still under innovation.
+responsive might be slower.The submit button does not display the names of Akan people as it is required to do so.
+
+
 ## Technologies Used
 HTML
 CSS
