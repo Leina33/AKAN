@@ -22,7 +22,7 @@ else{
 alert("Your were born on "+ dayWeek[d] +  " and your Akan name is " +name );
 
 */
-var currentDate = newDate();
+var currentDate = new Date();
 var currentYear = currentDate.getFullYear();
 
 function giveName() {
