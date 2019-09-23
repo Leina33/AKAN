@@ -35,7 +35,7 @@ function giveName() {
 
 function selectGender() {
   var gender = document.getElementById("gender").value;
-  if (gender == "1") {
+  if (gender == "") {
     alert("selecte gender");
     return false;
   }
