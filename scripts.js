@@ -84,7 +84,7 @@ function digits(input){
 }
 function validYear(){
   var year = document.getElementById('yearBorn').value;
-  if (year < 1799 || year > currentYear) {
+  if (year < 1599 || year > currentYear) {
     alert("Invalid Year");
     return false;
   }
