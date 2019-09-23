@@ -72,7 +72,7 @@ function giveDay() {
     return false;
   }
 }
-// function that restrict users from not keying in different numbers on letters section
+// function that restrict users from not keying in different numbers on letters and number section
 function allLetters(input){
   var characters = /[^a-z]/gi;
   input.value = input.value.replace(characters, "");
@@ -84,14 +84,14 @@ function digits(input){
 }
 function validYear(){
   var year = document.getElementById('yearBorn').value;
-  if (year < 1899 || year > currentYear) {
+  if (year < 1799 || year > currentYear) {
     alert("Invalid Year");
     return false;
   }
 }
 
 function validDay(){
-  var thirtyOneMonths = [1, 3, 5, 7, 9, 10, 12];
+  var oddMonths = [1, 3, 5, 7, 9, 10, 12];
   var monthNumber = parseInt(document.getElementById("monthBorn").value);
   var dayNumber = parseInt(document.getElementById("dayBorn").value);
   var yearNumber = parseInt(document.getElementById("yearBorn").value);
@@ -99,7 +99,7 @@ function validDay(){
   var a = yearNumber % 100;
   var b = yearNumber % 400;
   var c = yearNumber % 4;
-  var d = thirtyOneMonths.includes(monthNumber);
+  var d = oddMonths.includes(monthNumber);
   if (monthNumber === 2 && dayNumber > 28 && a === 0 && b !== 0){
     alert("Invalid day: The entered year, February had 28 days.");
     return false;
@@ -189,4 +189,12 @@ function getName(){
         return true;
       }
     }
+}
+
+function clearForm(){
+  document.getElementById("form").reset();
+}
+
+function clearResult(){
+  document.getElementById("answer").reset();
 }
