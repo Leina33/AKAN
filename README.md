@@ -2,7 +2,7 @@
 #### This Akan names for people in Ghana, 2019
 #### By **DOMINIC RUTTO**
 ## Description
-This is the Akan peoples names calculator , where user keys in the name, age , gender and the centuary he/she was born
+This is the Akan peoples names calculator , where user keys in the name, age , gender and the centuary you were born
 The website will automatically do the calculation and give you the feedback in results form.
 ## Setup/Installation Requirements
 * Clone or download and unzip the repository from github,https://github.com/Leina33/AKAN.git
