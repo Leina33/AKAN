@@ -23,8 +23,8 @@
              <div class="card-body">
                <form class="" id="form">
                  <div class="form-group">
-                   <label for="">Enter Name</label> 
-                   <input type="text" class="form-control" id="yourNames" onkeyup="allLetters(this)" name="your name">
+                   <label for="" >Enter Name</label> 
+                   <input type="text" onblur="giveName()" class="form-control" id="yourNames" onkeyup="allLetters(this)" name="your name">
                  </div>
                  <div class="form-group">
                    <label for="">Gender</label>
@@ -36,7 +36,7 @@
                  </div>
                  <div class="form-group">
                    <label for="">CenturyBorn</label>
-                   <input type="number" class="form-control" id="centuryBorn" onkeyup="digits(this)" name="year" value="......">
+                   <input type="number""text" onblur="giveCentury()" class="form-control" id="centuryBorn" onkeyup="digits(this)" name="year" value="......">
                  </div>
                  <div class="form-group">
                    <label for="">Enter Year Born</label>
@@ -67,7 +67,7 @@
                  <div class="form-group">
                      <div class ="submit"></div>
                      <div class ="submit">
-                   <button type="button" onclick= "alert('giveName')" > SUBMIT</button>
+                   <button type="button" onclick= "giveName()" > SUBMIT</button>
                    <!-- <button type="button" onclick="giveName();selectGender(); giveCentury();giveYear();giveMonth();giveDay();validYear();validDay();getName();clearForm();" class="btn btn-outline-success">Submit</button> -->
                 </div>
                  </div>
@@ -78,6 +78,6 @@
     </div>
     
 
-              <script src="./js/scripts.js"></script>
+              <script src="../css/scripts.js"></script>
 </body>
 </html>
