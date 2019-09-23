@@ -72,7 +72,7 @@ function giveDay() {
     return false;
   }
 }
-
+// function that restrict users from not keying in different numbers on letters section
 function allLetters(input){
   var characters = /[^a-z]/gi;
   input.value = input.value.replace(characters, "");
@@ -82,7 +82,6 @@ function digits(input){
   var digits = /[^0-9]/;
   input.value = input.value.replace(digits, "");
 }
-
 function validYear(){
   var year = document.getElementById('yearBorn').value;
   if (year < 1899 || year > currentYear) {
